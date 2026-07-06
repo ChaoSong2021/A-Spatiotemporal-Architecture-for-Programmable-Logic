@@ -39,18 +39,12 @@ Please ensure that all `.m` scripts, `.mat` data files, and raw MNIST binary fil
 │   └── plot_numberPairs_accuracy.m        # Plots the customized accuracy heatmap and confusion matrix from pre-trained data
 │
 ├── ⚡ 3. Hardware Experimental Validation
-│   ├── plot_voltage_signals_time_domain.m # Plots time-domain voltage waveforms (S0~S4) with interval highlights
-│   ├── S0.mat                             # Experimental hardware data: T = 0
-│   ├── S1.mat                             # Experimental hardware data: T = 1
-│   ├── S2.mat                             # Experimental hardware data: T = 2
-│   ├── S3.mat                             # Experimental hardware data: T = 3
-│   └── S4.mat                             # Experimental hardware data: T = 4
-│
-└── 📁 4. MNIST Dataset Files (Raw Binary)
-    ├── train-images-idx3-ubyte            # Training set images (60,000 samples)
-    ├── train-labels-idx1-ubyte            # Training set labels
-    ├── t10k-images-idx3-ubyte             # Test set images (10,000 samples)
-    └── t10k-labels-idx1-ubyte             # Test set labels
+    ├── plot_voltage_signals_time_domain.m # Plots time-domain voltage waveforms (S0~S4) with interval highlights
+    ├── S0.mat                             # Experimental hardware data: T = 0
+    ├── S1.mat                             # Experimental hardware data: T = 1
+    ├── S2.mat                             # Experimental hardware data: T = 2
+    ├── S3.mat                             # Experimental hardware data: T = 3
+    └── S4.mat                             # Experimental hardware data: T = 4
 
 
 ---
